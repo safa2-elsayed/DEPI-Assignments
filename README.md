@@ -1,51 +1,16 @@
-# 📌 DEPI Assignments & Projects Repository
+# assignment9
 
-Welcome to my **DEPI Assignments & Projects Repository**! 🚀  
-This repository contains all the assignments and projects I learn during my **DEPI (Digital Egypt Pioneers Initiative)** training program.
+A new Flutter project.
 
----
+## Getting Started
 
-## 📂 Repository Contents
+This project is a starting point for a Flutter application.
 
-This repo includes:
+A few resources to get you started if this is your first Flutter project:
 
-- ✅ Assignments  
-- ✅ Practice Tasks  
-- ✅ Flutter Projects  
-- ✅ Mini Projects  
-- ✅ Learning Exercises & Code Experiments  
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Each folder represents a separate assignment or project with its source code and related files.
-
----
-
-## 🛠️ Technologies Used
-
-The main technologies and tools used in this repository include:
-
-- **Flutter**
-- **Dart**
-- **Firebase** (in some projects)
-- **Git & GitHub**
-- **VS Code /**
-
----
-
-## 🎯 Purpose of This Repository
-
-The purpose of this repository is to:
-
-- Track my progress during the DEPI program  
-- Organize all assignments and projects in one place  
-- Practice real-world development using Flutter  
-- Build a strong portfolio of work  
-
----
-
-## 📌 How to Run Flutter Projects
-
-To run any Flutter project from this repository:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/safa2-elsayed/DEPI-Assignments.git
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
