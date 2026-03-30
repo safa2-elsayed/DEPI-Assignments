@@ -18,15 +18,18 @@ A simple and efficient To-Do List mobile application built with Flutter & Dart.
 
 🧩 Clean and scalable architecture
 ******
-📱 Screens
+📱 Screens:-
+
 Tasks List Screen
+
 Add Task Screen
+
 Task Item Widget (Reusable component)
+
 ******
 🧱 Project Architecture :-
 
 The project follows MVVM (Model - View - ViewModel) architecture:
-**********
 
 🔹 Model  :-
 
@@ -55,7 +58,9 @@ Manages the state and business logic of the application.
 Responsibilities:
 
 Adding new tasks
+
 Updating task status
+
 Emitting new states to update the UI
 
  ******
@@ -85,7 +90,11 @@ class TaskCubit extends Cubit<List<Task>> {
 }
  *******
 🛠 Technologies Used :-
+
 Flutter
+
 Dart
+
 Cubit (Bloc)
+
 MVVM Architecture
