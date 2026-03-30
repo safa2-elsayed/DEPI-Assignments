@@ -2,13 +2,20 @@ To-Do List App (Flutter)
 
 A simple and efficient To-Do List mobile application built with Flutter & Dart.
 
-🚀 Features
+🚀 Features:- 
+
 ➕ Add new tasks
+
 📝 Display a list of tasks
+
 ✅ Mark tasks as completed
+
 🔄 Toggle task status (Done / Not Done)
+
 📊 Visual indication of task status
-⚡ Real-time UI updates باستخدام Cubit
+
+⚡ Real-time UI updates using Cubit
+
 🧩 Clean and scalable architecture
 ******
 📱 Screens
