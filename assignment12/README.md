@@ -1,16 +1,77 @@
-# assignment 12
+To-Do List App (Flutter)
 
-A new Flutter project.
+A simple and efficient To-Do List mobile application built with Flutter & Dart.
 
-## Getting Started
+🚀 Features
+➕ Add new tasks
+📝 Display a list of tasks
+✅ Mark tasks as completed
+🔄 Toggle task status (Done / Not Done)
+📊 Visual indication of task status
+⚡ Real-time UI updates باستخدام Cubit
+🧩 Clean and scalable architecture
 
-This project is a starting point for a Flutter application.
+📱 Screens
+Tasks List Screen
+Add Task Screen
+Task Item Widget (Reusable component)
 
-A few resources to get you started if this is your first Flutter project:
+🧱 Project Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The project follows MVVM (Model - View - ViewModel) architecture:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🔹 Model
+
+Represents the data structure of the app.
+
+class Task {
+  final String title;
+  bool isDone;
+
+  Task({required this.title, this.isDone = false});
+}
+🔹 View
+
+Handles the UI components (Screens & Widgets).
+
+Examples:
+
+Task List Screen
+Task Card Widget
+🔹 ViewModel (Cubit)
+
+Manages the state and business logic of the application.
+
+Responsibilities:
+
+Adding new tasks
+Updating task status
+Emitting new states to update the UI
+
+👉 Definition:
+The ViewModel acts as a bridge between the View and the Model.
+It handles business logic and updates the UI dynamically using state management.
+
+🧠 State Management
+
+The app uses Cubit (from Bloc) for state management.
+
+Example:
+class TaskCubit extends Cubit<List<Task>> {
+  TaskCubit() : super([]);
+
+  void addTask(String title) {
+    final newTask = Task(title: title);
+    emit([...state, newTask]);
+  }
+
+  void toggleTask(int index) {
+    state[index].isDone = !state[index].isDone;
+    emit([...state]);
+  }
+}
+🛠 Technologies Used
+Flutter
+Dart
+Cubit (Bloc)
+MVVM Architecture
